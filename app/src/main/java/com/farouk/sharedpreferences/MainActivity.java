@@ -43,7 +43,7 @@ private CheckBox mCheckBox;
                 String password=mPassword.getText().toString();
                 mEditor.putString(getString(R.string.password),password);
                 mEditor.commit();
-                Toast toast = Toast.makeText(getApplicationContext(), "success", Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(getApplicationContext(), "Successfully", Toast.LENGTH_SHORT);
                 toast.show();
 
             }else{
