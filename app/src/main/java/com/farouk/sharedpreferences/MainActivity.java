@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 private SharedPreferences mPreferences;
@@ -42,6 +43,9 @@ private CheckBox mCheckBox;
                 String password=mPassword.getText().toString();
                 mEditor.putString(getString(R.string.password),password);
                 mEditor.commit();
+                Toast toast = Toast.makeText(getApplicationContext(), "success", Toast.LENGTH_SHORT);
+                toast.show();
+
             }else{
                 mEditor.putString(getString(R.string.checkbox),"False");
                 mEditor.commit();
