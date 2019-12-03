@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SharedPreferences</string>
+    <string name="checkbox">checkbox</string>
+    <string name="name">name</string>
+    <string name="pcassword">password</string>
+    <string name="password">password</string>
+</resources>
